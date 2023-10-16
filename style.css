@@ -1,0 +1,122 @@
+.header {
+    background-color: #6969699d;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header__logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header__nav-list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .header__nav-item {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+  
+  .header__nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    font-size: 25px;
+  }
+
+  .header__nav-link:hover {
+    color: #e75100;
+    }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e75100;
+    border-radius: 0px;
+    margin: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e75100;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background: #505050;
+}
+
+
+  .content {
+    padding: 40px;
+  }
+  
+  .content__section-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .content__section-text {
+    font-size: 35px;
+  }
+
+  .content__section-button {
+    background-color: #333;
+    color: #e5e5e5;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+  }
+
+  .content__section-button:hover {
+    color: #e75100;
+}
+
+.container {
+    display: flex;
+  }
+  
+  .box {
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(211, 211, 211, 0.486);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .box__text {
+    margin: 0;
+    font-size: 35px;
+  }
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 70px;
+    text-align: center;
+  }
+
+  #bg_img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
